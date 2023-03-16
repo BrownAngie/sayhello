@@ -1,0 +1,34 @@
+<!---
+  Use this template when making consequential changes to dbt,
+  including changes to dbt models, tests, seeds, and docs, etc.
+--->
+# Description & Motivation
+***
+
+### Jira ticket
+<!--- Link the Issue this MR closes --->
+***
+
+### Validation of Models
+```sql
+```
+***
+
+### Changes to dbt Models
+***
+
+### Next Steps 
+```dbt
+```
+
+### All MRs Checklist
+
+- [ ] Models adhere to our dbt [Best Practices](https://calix.atlassian.net/wiki/spaces/ADS/pages/3596846503/DBT+Coding+Best+Practices)
+- [ ] All tables are using `{{ ref('...') }}`
+- [ ] CI tests have completed successfully
+- [ ] Documentation and tests have been added
+- [ ] Data returns expected 
+***
+
+### Reviewer Checklist
+- [ ]  Approved
